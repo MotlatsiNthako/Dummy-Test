@@ -14,7 +14,7 @@ workflows:
             - build
           filters:
             branches:
-             only: dev
+             only: master
 jobs:
   test:
     docker:
